@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Indie Flower';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/indieflower/v21/m8JVjfNVeKWVnh3QMuKkFcZVaUuH.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  body{
+    background-color: #666666;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+.post-it{
+display: flex;
+align-items: center;
+width: 250px;
+height: 200px;
+background-color: #F9FAC8;
+border: 2px solid black;
+padding: 0px;
+padding-bottom: 10px;
+margin: 8px;
+margin-left: 50px;
+margin-right: 0;
+text-align: center;
+box-shadow: 2px 3px 6px;
+animation: Appear 2s ease-in-out;
+}
+
+@keyframes  Appear{
+0%{ transform: translateY(-100px);
+    opacity: 0;
+}
+
+100%{
+    transform:translateY(0);
+    opacity: 1;
+}
+
+
+}
+
+main.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #666666;
+    margin-left: 10px;
+ 
+ }
+ article{
+text-align: center;
+}
+ 
+.post-text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-left: 30%;
+}
+.post-text h3{
+padding-bottom: 10px;
+font-weight: bold;
+}
+
+
+.box1{
+    background-color: #F9F9C7;
+
+}
+
+.box2{
+background-color: #C4F1C5;
+}
+.box3{
+background-color: #C1C2EB;
+}
+.box4{
+   background-color:#C4F1C5;
+}
+.box5{
+    background-color: #F9F9C7;
+}
+.box6{
+background-color: #C1C2EB;
+}
+.box7{
+    background-color: #F9F9C7;
+}
+.box8{
+background-color:#C4F1C5 ;
+}
+
+.rotate1{
+    transform: rotate(352deg)
+}
+.rotate2{
+transform:rotate(346deg) ;
+} 
+
+.rotate3{
+transform: rotate(10deg);
+}
+.rotate4{
+    transform: rotate(350deg);
+}
+.straight:hover{
+transform: rotate(0deg)
+}
+
